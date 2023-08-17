@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("charity.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    animation: charity 10s infinite;
+}
+@keyframes charity{
+    0%{
+        background-image: url("charity.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20%{
+        background-image: url("charity1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background-image: url("charity2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        background-image: url("charity3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: black;
+    opacity: 0.4;
+}
+.header1 img{
+        width: 70px;
+        height: 70px;
+        margin-left: 30px;
+        margin-top: 10px;
+}
+.header2{
+    margin-left: 50px;
+}
+.header2 ul{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+}
+.header2 ul li{
+    padding: 0 10px;
+    list-style-type: none;
+    color: #ffffff;
+    display: inline;
+    cursor: pointer;
+}
+.header2 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header2 ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
+    border-radius:10px;
+}
+.header3 ul{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #ffff;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.header3 ul li{
+    padding: 0 10px;
+    list-style-type: none;
+    color: #ffffff;
+    display: inline;
+    cursor: pointer;
+}
+.header3 ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#a{
+    border: 2px solid rgb(211, 86, 48);
+    padding: 7px;
+    background-color: rgb(211, 86, 48);
+}
+.fa{
+    margin-right:6px;
+}
+.body{
+    /*border:2px solid white;*/
+    height:50vh;
+    width:50%;
+    margin:200px 150px;
+    line-height:40px;
+    color:white;
+}
+.body h1{
+    margin-top: 20px;
+    margin-left:120px;
+    letter-spacing: 3px;
+}
+.body p{
+    margin-top: 20px;
+    margin-left:120px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.body a{
+    
+    margin-left:120px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgb(119, 212, 208);
+    padding: 10px;
+    font-size:15px;
+    background-color: rgb(119, 212, 208);
+}
